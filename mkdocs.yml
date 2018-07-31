@@ -1,0 +1,57 @@
+site_name: Ruby Programming Guide
+theme:
+  name: 'material'
+  palette:
+    primary: 'amber'
+    accent: 'deep orange'
+  logo: images/logo-lines.png
+markdown_extensions:
+  - codehilite
+  - admonition  
+  - meta
+  - toc:
+      permalink: true
+
+site_url: https://guides.peruzal.com/ruby-programming-guide
+repo_url: https://github.com/Peruzal/ruby-programming-guide
+repo_name: Github
+
+google_analytics:
+  - 'UA_40772582_8'
+  - 'auto'
+
+extra:
+  disqus: 'xamarin_guides'  
+
+copyright: 'Copyright &copy; 2018 - Peruzal'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/peruzal'
+    - type: 'twitter'
+      link: 'https://twitter.com/peruzal'
+
+pages:
+  - Home: index.md
+  - Setting Up Environment: setting_up_development_environment.md
+  - Ruby Overview:  overview.md
+  - Ruby Documentation: ruby_documentation.md
+  - Operators: operators.md
+  - Strings: strings.md
+  - Arrays: arrays.md
+  - Hashes: hashes.md
+  - Numbers: numbers.md
+  - Booleans: booleans.md
+  - Objects: objects.md
+  - Loops and Iterators: loops_and_iterators.md
+  - Functions and Methods: functions_and_methods.md
+  - Classes and Modules: classes_and_modules.md
+  - Blocks, Procs and Lambdas: blocks_procs_and_lambdas.md
+  - Errors and Exceptions: errors_and_exceptions.md
+  - Input/Output: input_and_output.md
+  - Files and Directories: files_and_directories.md
+  - Sinatra: sinatra.md
+  - Rails: rails.md
+  - Testing with RSpec: testing_with_rspec.md
